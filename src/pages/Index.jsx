@@ -35,7 +35,7 @@ const Index = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-[url('https://huggingface.co/datasets/MakiAi/IconAssets/resolve/main/galaxy-cat-cafe-background.jpg')] bg-cover bg-center bg-fixed">
       <div className="w-full max-w-6xl p-8 bg-black bg-opacity-60">
-        <h1 className="text-4xl font-bold mb-8 text-white text-center">Galaxy Cat Cafe Dashboard</h1>
+        <h1 className="text-4xl font-bold mb-8 text-white text-center">Galaxy Cat Cafe Dashboard V2</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           {[
             { title: "Cats Adopted", icon: CatIcon, value: "42" },
